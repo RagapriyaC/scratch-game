@@ -5,22 +5,22 @@ Build a scratch game, that will generate a matrix (for example 3x3) from symbols
 # Application Required :
 # Eclipse IDE
 # Running the Application in CLI:
-•	Download the project from github
-•	Navigate to the Project Folder and ensure build_scratch_game-0.0.1-jar-with-dependencies.jar is present in that folder.
-•	open Command Prompt terminal from the respective containing folder
-•	Give the below command and test the output
+1. Download the project from github
+2. Navigate to the Project Folder and ensure build_scratch_game-0.0.1-jar-with-dependencies.jar is present in that folder.
+3. open Command Prompt terminal from the respective containing folder
+4. Give the below command and test the output
                    java -jar build_scratch_game-0.0.1-jar-with-dependencies.jar config.json 100
 In the above command,
 1.	“build_scratch_game-0.0.1-jar-with-dependencies.jar” denotes the jar name.
 2.	“config.json” configuration file 
 3.	“100” denotes the betting amount, you can change the betting output and check the output.
 # Running the Application in Eclipse:
-•	Download the project from github and import as existing maven project.
-•	Do maven build and check for any compilation errors.
-•	Right-click on the ScratchGame class (the one with the main method) and select "Run As" > "Run Configurations”
-•	In "Run Configurations”, please add the program arguments as “config.json 100” and click “apply” and then “run” to run the application. 
+1. Download the project from github and import as existing maven project.
+2. Do maven build and check for any compilation errors.
+3. Right-click on the ScratchGame class (the one with the main method) and select "Run As" > "Run Configurations”
+4. In "Run Configurations”, please add the program arguments as “config.json 100” and click “apply” and then “run” to run the application. 
 Note : 100 denotes the betting amount, you can change the amount accordingly.
-•	The application will start and you should see the console output in JSON format successfully.
+5. The application will start and you should see the console output in JSON format successfully.
 ![image](https://github.com/RagapriyaC/scratch-game/assets/157902475/59933920-bf5b-44ef-93a3-955ffd7c90d5)
 
 # Sample Output and Testing Screenshots:
