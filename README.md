@@ -20,13 +20,14 @@ Note : 100 denotes the betting amount, you can change the amount accordingly.
 # Running the Application in Eclipse:
 1. Download the project from github and import as existing maven project.
 2. Do maven build and check for any compilation errors.
-3. Right-click on the ScratchGame class (the one with the main method) and select "Run As" > "Run Configurations”
-4. In "Run Configurations”, please add the program arguments as “config.json 100” and click “apply” and then “run” to run the application.
+3. Right-click on the ScratchGame class (the one with the main method) and select "Run As" > "Run Configurations” > “Java Application”
+4. In "Java Application -> ScratchGame”, please add the program arguments as “config.json 100” and click “apply” and then “run” to run the application.
    
 Note : 100 denotes the betting amount, you can change the amount accordingly.
 
 6. The application will start and you should see the console output in JSON format successfully.
-![image](https://github.com/RagapriyaC/scratch-game/assets/157902475/59933920-bf5b-44ef-93a3-955ffd7c90d5)
+![image](https://github.com/RagapriyaC/scratch-game/assets/157902475/b6fb8bcb-af00-492a-8b0d-6f4ba4a26a08)
+
 
 # Sample Output and Testing Screenshots:
 # IN CLI MODE:
