@@ -3,14 +3,14 @@ Build a scratch game, that will generate a matrix (for example 3x3) from symbols
 
 # Prerequisites:
 # Application Required :
-# Eclipse IDE
+Eclipse IDE
 # Running the Application in CLI:
 1. Download the project from github
 2. Navigate to the Project Folder and ensure build_scratch_game-0.0.1-jar-with-dependencies.jar is present in that folder.
 3. open Command Prompt terminal from the respective containing folder
 4. Give the below command and test the output
-                   java -jar build_scratch_game-0.0.1-jar-with-dependencies.jar config.json 100
-In the above command,
+                   5. "java -jar build_scratch_game-0.0.1-jar-with-dependencies.jar config.json 100"
+6.In the command,
 1.	“build_scratch_game-0.0.1-jar-with-dependencies.jar” denotes the jar name.
 2.	“config.json” configuration file 
 3.	“100” denotes the betting amount, you can change the betting output and check the output.
@@ -33,13 +33,16 @@ Output:
 "applied_winning_combinations": {E=[same_symbol_3_times], F=[same_symbol_4_times, same_symbols_diagonally_left_to_right, same_symbol_3_times]},
 "applied_bonus_symbol": []
 }
+
 Explanation :
 
 Reward = (Betting amount * Symbol E Reward * same_symbol_3_times) + 
 (Betting amount * Symbol F Reward * same_symbol_4_times * same_symbols_diagonally_left_to_right * same_symbol_3_times)
 
 = (100 * 3 * 1) + (100 * 1.5 * 1.5 * 5 *1)
+
 Reward = 1425
+
 ![image](https://github.com/RagapriyaC/scratch-game/assets/157902475/605c7b37-5043-4380-a66b-fb342b9741c9)
 
 # Test Case 2 With Bonus symbol:
